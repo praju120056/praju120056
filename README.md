@@ -46,9 +46,3 @@ OpenCV · image processing basics
 ### Tools
 Git · GitHub · Linux  
 MATLAB · Jupyter Notebook · Conda · VS Code
-
-
-
-## Disclaimer
-Everything here worked at least once. 😆
-
