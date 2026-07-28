@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Prajakth GitHub Terminal</title>
+<desc id="desc">Animated Linux terminal profile showing Prajakth's active projects and research.</desc>
+
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #0d1117;
+    --border: #30363d;
+    --text: #c9d1d9;
+    --muted: #8b949e;
+    --green: #7ee787;
+    --blue: #79c0ff;
+    --yellow: #e3b341;
+  }
+
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+  .text { fill: var(--text); font-size: 16px; }
+  .muted { fill: var(--muted); }
+  .prompt { fill: var(--green); font-weight: 600; }
+  .blue { fill: var(--blue); }
+  .green { fill: var(--green); }
+  .yellow { fill: var(--yellow); }
+  .small { font-size: 14px; }
+  .title { font-size: 14px; }
+
+  .line {
+    opacity: 0;
+    animation: reveal .15s forwards;
+  }
+
+  .l1 { animation-delay: .25s; }
+  .l2 { animation-delay: .55s; }
+  .l3 { animation-delay: .85s; }
+  .l4 { animation-delay: 1.15s; }
+  .l5 { animation-delay: 1.45s; }
+  .l6 { animation-delay: 1.75s; }
+  .l7 { animation-delay: 2.05s; }
+  .l8 { animation-delay: 2.35s; }
+  .l9 { animation-delay: 2.65s; }
+  .l10 { animation-delay: 2.95s; }
+  .l11 { animation-delay: 3.25s; }
+  .l12 { animation-delay: 3.55s; }
+  .l13 { animation-delay: 3.85s; }
+  .l14 { animation-delay: 4.15s; }
+
+  .cursor {
+    animation: blink 1s steps(1,end) infinite;
+  }
+
+  @keyframes reveal {
+    to { opacity: 1; }
+  }
+
+  @keyframes blink {
+    0%, 48% { opacity: 1; }
+    49%, 100% { opacity: 0; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .line { opacity: 1; animation: none; }
+    .cursor { animation: none; }
+  }
+</style>
+
+<rect x="1" y="1" width="998" height="558" rx="12" fill="var(--panel)" stroke="var(--border)" stroke-width="2"/>
+<rect x="1" y="1" width="998" height="42" rx="12" fill="#161b22"/>
+<path d="M1 31 Q1 43 13 43 H987 Q999 43 999 31" fill="#161b22"/>
+<line x1="1" y1="43" x2="999" y2="43" stroke="var(--border)"/>
+
+<circle cx="23" cy="22" r="6" fill="#f85149"/>
+<circle cx="43" cy="22" r="6" fill="#d29922"/>
+<circle cx="63" cy="22" r="6" fill="#3fb950"/>
+
+<text x="500" y="27" text-anchor="middle" class="mono muted title">praju120056@github: ~</text>
+
+<g class="mono text">
+  <text x="28" y="78" class="line l1">
+    <tspan class="prompt">praju120056@github:~$</tspan>
+    <tspan> whoami</tspan>
+  </text>
+
+  <text x="28" y="106" class="line l2">
+    <tspan>Prajakth</tspan>
+    <tspan class="muted"> — Information Science Engineering @ BMSCE</tspan>
+  </text>
+
+  <text x="28" y="134" class="line l3 muted">Backend · AI/ML Systems · Systems · Embedded</text>
+
+  <line x1="28" y1="158" x2="972" y2="158" stroke="var(--border)" class="line l4"/>
+
+  <text x="28" y="190" class="line l5">
+    <tspan class="prompt">praju120056@github:~$</tspan>
+    <tspan> ps --active</tspan>
+  </text>
+
+  <text x="28" y="220" class="line l6 small blue">PID    PROJECT                         STATUS</text>
+
+  <text x="28" y="248" class="line l7">
+    <tspan class="blue">101</tspan>
+    <tspan x="100">meridian</tspan>
+    <tspan x="390" class="green">RUNNING</tspan>
+  </text>
+
+  <text x="28" y="276" class="line l8">
+    <tspan class="blue">102</tspan>
+    <tspan x="100">prism-smart-inhaler</tspan>
+    <tspan x="390" class="green">RUNNING</tspan>
+  </text>
+
+  <text x="28" y="304" class="line l9">
+    <tspan class="blue">103</tspan>
+    <tspan x="100">intellirepo</tspan>
+    <tspan x="390" class="green">RUNNING</tspan>
+  </text>
+
+  <text x="28" y="332" class="line l10">
+    <tspan class="blue">104</tspan>
+    <tspan x="100">zero-trust-banking</tspan>
+    <tspan x="390" class="yellow">AWAITING SHIP</tspan>
+  </text>
+
+  <line x1="28" y1="356" x2="972" y2="356" stroke="var(--border)" class="line l10"/>
+
+  <text x="28" y="388" class="line l11">
+    <tspan class="prompt">praju120056@github:~$</tspan>
+    <tspan> researchctl status</tspan>
+  </text>
+
+  <text x="28" y="420" class="line l12">
+    <tspan class="green">[PUBLISHED]</tspan>
+    <tspan x="170">PINN Hybrid LSTM — Battery Degradation</tspan>
+  </text>
+
+  <text x="28" y="450" class="line l13">
+    <tspan class="yellow">[IN PUBLICATION]</tspan>
+    <tspan x="210">Facial Emotion Recognition</tspan>
+  </text>
+
+  <line x1="28" y1="474" x2="972" y2="474" stroke="var(--border)" class="line l13"/>
+
+  <text x="28" y="510" class="line l14">
+    <tspan class="prompt">praju120056@github:~$</tspan>
+    <tspan class="cursor"> █</tspan>
+  </text>
+
+  <text x="972" y="536" text-anchor="end" class="muted small line l14">PrajakthOS</text>
+</g>
+</svg>
