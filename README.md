@@ -1,37 +1,104 @@
-# Hi, I'm Prajakth 👋
+<div align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Prajakth"/>
+</div>
 
-I enjoy building backend systems, AI applications, and software that solves real-world problems. 
+<br>
 
-My interests span machine learning, distributed systems, embedded devices, and operating systems.
+## `./projects --featured`
 
----
+### Meridian
 
-## Featured Projects
+> AI agent for PR intelligence — analyzes GitHub changes and routes relevant updates through Slack.
 
-### PRISM Smart Inhaler
-An intelligent inhaler monitoring system that analyzes inhalation acoustics using digital signal processing and machine learning to provide personalized feedback.
-
-### PINN-Based Hybrid LSTM for Battery SOH Prediction
-A physics-informed deep learning model for predicting lithium-ion battery degradation using the NASA Battery Cycling Dataset.
-
-### Zero Trust Banking System
-A secure banking platform implementing Zero Trust principles with role-based access control, Keycloak authentication, FastAPI, and PostgreSQL.
-
-### Skill Exchange
-A full-stack MERN application that enables students to teach, learn, and exchange skills through a collaborative platform.
-
-### NeoCocoon
-An IoT-enabled neonatal incubator monitoring system featuring a real-time dashboard, sensor integration, and hardware control using Raspberry Pi.
-
-### UNIX-style Shell
-A UNIX-inspired shell written in C supporting process creation, pipes, redirection, and command execution.
+`Python` · `AI Agents` · `GitHub` · `Developer Tooling`
+**↳ IN DEVELOPMENT**
 
 ---
 
-## Currently Exploring
+### PRISM
 
-- Backend Engineering
-- Distributed Systems
-- Machine Learning Systems
-- Embedded Systems
-- Operating Systems
+> Smart inhaler acoustic pipeline for respiratory event detection and ML inference.
+
+`Python` · `DSP` · `Machine Learning` · `Embedded Systems`
+**↳ IN DEVELOPMENT**
+
+---
+
+### IntelliRepo
+
+> Graph-aware code intelligence using ASTs, dependency graphs, embeddings and semantic retrieval.
+
+`Python` · `FastAPI` · `Graphs` · `RAG`
+**↳ IN DEVELOPMENT**
+
+<br>
+
+## `./research`
+
+```text
+STATUS            WORK
+────────────────────────────────────────────────────────────
+PUBLISHED         PINN Hybrid LSTM — Battery Degradation
+IN PUBLICATION    Facial Emotion Recognition Framework
+```
+
+**PINN Hybrid LSTM**
+Physics-informed modelling of lithium-ion battery degradation using the NASA Battery Cycling Dataset.
+
+**Facial Emotion Recognition**
+Deep-learning framework extending emotion recognition toward states such as frustration and confusion.
+
+<br>
+
+## `./archive --shipped`
+
+```text
+skill-exchange-2.0/      full-stack skill exchange platform
+llm-powered-rag/         multi-source RAG + semantic retrieval
+unix-style-shell/        processes · pipes · redirection · execution
+```
+
+<br>
+
+## `systemctl status zta`
+
+```text
+● zero-trust-banking.service
+
+  architecture    Zero Trust
+  identity        Keycloak
+  backend         FastAPI
+  database        PostgreSQL
+
+  status          AWAITING DEPLOYMENT
+```
+
+<br>
+
+## `./stack`
+
+`C / C++` · `Python` · `TypeScript` · `JavaScript`
+
+`FastAPI` · `Node.js` · `React` · `MongoDB` · `PostgreSQL`
+
+`Git` · `Docker` · `Linux`
+
+<br>
+
+## `./interests`
+
+```text
+backend engineering    distributed systems
+AI / ML systems        operating systems
+embedded systems
+```
+
+<br>
+
+<div align="center">
+
+`praju120056@github:~$ exit`
+
+**[ GitHub ] · [ LinkedIn ] · [ Portfolio ]**
+
+</div>
