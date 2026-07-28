@@ -99,10 +99,6 @@ embedded systems
 
 `praju120056@github:~$ exit`
 
-<div align="center">
-
-`praju120056@github:~$ exit`
-
 <a href="https://www.linkedin.com/in/prajakth-n-kumar-0092902a6/">LinkedIn</a> ·
 <a href="https://prajakth-portfolio.vercel.app/">Portfolio</a> ·
 <a href="mailto:prajakth.kumar@gmail.com">Email</a>
