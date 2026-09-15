@@ -95,6 +95,28 @@ embedded systems
 
 <br>
 
+<br>
+
+## `./open-source`
+
+<div align="center">
+
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/d2b296ff-d2fe-4127-9e4a-4a467af5f9c1" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+`praju120056@github:~$ exit`
+
+<a href="https://www.linkedin.com/in/prajakth-n-kumar-0092902a6/">LinkedIn</a> ·
+<a href="https://prajakth-portfolio.vercel.app/">Portfolio</a> ·
+<a href="mailto:prajakth.kumar@gmail.com">Email</a>
+
+</div>
+
 <div align="center">
 
 `praju120056@github:~$ exit`
