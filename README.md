@@ -1,14 +1,13 @@
 <h1 align="center">Prajakth N Kumar</h1>
 
 <p align="center">
-  <b>Full-stack and AI engineer</b><br/>
-  Computer Science student at B.M.S.C.E, Bangalore<br/>
+  <b>Trying to be a Polymath</b><br/>
   <i>Veni. Vidi. Vici.</i>
 </p>
 
 <p align="center">
-   <a href="https://vercel.app"><b>Portfolio</b></a> &nbsp;&nbsp;•&nbsp;&nbsp;
-   <a href="https://linkedin.com"><b>LinkedIn</b></a> &nbsp;&nbsp;•&nbsp;&nbsp;
+   <a href="https://prajakth-portfolio.vercel.app/"><b>Portfolio</b></a> &nbsp;&nbsp;•&nbsp;&nbsp;
+   <a href="http://linkedin.com/in/prajakth-n-kumar-0092902a6/"><b>LinkedIn</b></a> &nbsp;&nbsp;•&nbsp;&nbsp;
    <a href="mailto:prajakth.kumar@gmail.com"><b>Email</b></a>
 </p>
 
@@ -17,9 +16,12 @@
 
 ## About
 
-I build AI systems end to end: the model, the retrieval or inference pipeline around it, and the interface that puts it in front of users. My work spans three areas: LLM and agent tooling, applied machine learning on physical and acoustic signals, and full-stack products with real deployments.
+ISE undergrad who enjoys turning caffeine, curiosity, and questionable amounts of debugging into working software.
 
-I prefer designs where deterministic logic owns the critical decisions and the model handles interpretation. This pattern runs through Meridian, FraudLens, IntelliRepo and the notification router below.
+Mostly into software engineering, backend systems, and figuring out why things break. I build with C++, Python, and TypeScript, occasionally venture into AI/ML, and firmly believe the best way to learn something is to build it, break it, and figure out why.
+
+Interested in good engineering, interesting problems, and systems that work outside the demo.
+
 
 ---
 
@@ -107,8 +109,9 @@ An extension of Antoine Lame's GazeTracking that combines gaze direction and fac
   <img width="238" height="336" alt="certified-meshery-contributor" src="https://github.com/user-attachments/assets/702c175f-5036-4015-bdd5-b7143dfe4927" />
   <img width="238" height="336" alt="first-design" src="https://github.com/user-attachments/assets/c55aa9a4-59cb-4238-8cd1-ab0cbf053fcf" />
 </p>
-## GitHub at a glance
 
+---
+## GitHub at a glance
 
 <p align="center">
   <picture>
