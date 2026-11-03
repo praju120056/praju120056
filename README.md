@@ -101,7 +101,12 @@ An extension of Antoine Lame's GazeTracking that combines gaze direction and fac
 
 
 ---
+## Open Source
 
+<p align="center">
+  <img width="238" height="336" alt="certified-meshery-contributor" src="https://github.com/user-attachments/assets/702c175f-5036-4015-bdd5-b7143dfe4927" />
+  <img width="238" height="336" alt="first-design" src="https://github.com/user-attachments/assets/c55aa9a4-59cb-4238-8cd1-ab0cbf053fcf" />
+</p>
 ## GitHub at a glance
 
 
