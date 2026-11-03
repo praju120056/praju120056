@@ -47,60 +47,16 @@ An extension of Antoine Lame's GazeTracking that combines gaze direction and fac
 
 ---
 
-## Selected projects
+## Selected Projects
 
-### AI systems and agents
+* **[FraudLens](https://github.com/praju120056/FraudLens)** — Payment fraud risk engine combining XGBoost, TreeSHAP explanations, Gemini-powered evidence synthesis, and immutable audit logging.
+* **[IntelliRepo](https://github.com/praju120056/IntelliRepo)** — Graph-aware code intelligence engine using Python ASTs, dependency graphs, embeddings, and retrieval-augmented generation.
+* **[Meridian](https://github.com/praju120056/Meridian)** — GitHub PR triage agent with verified webhooks, deterministic severity policies, LLM-based assessment, and Slack/Telegram alerts.
+* **[PRISM Smart Inhaler](https://github.com/praju120056/PRISM-Smart-Inhaler)** — Applied ML pipeline for inhaler audio-event classification using signal processing, classical ML, and a 1D CNN deployed through ONNX.
+* **[Skill Exchange 2.0](https://github.com/praju120056/skill-exchange-2.0)** — Full-stack skill-sharing platform featuring real-time messaging, AI mentoring, OAuth, JWT authentication, and Azure deployment.
+* **[Rookie](https://github.com/praju120056/rookie)** — Local AI-powered application testing with simulated user personas, Playwright automation, and Gemma 3 through Ollama; iQOO Hackathon 2026 finalist.
+* **[Banking ZTA](https://github.com/praju120056/banking_zta)** — Zero Trust banking simulation integrating mTLS, Keycloak, Open Policy Agent, and risk-based step-up authentication.
 
-| Project | Description | Stack |
-| :-- | :-- | :-- |
-| [**FraudLens**](https://github.com/praju120056/FraudLens) | Payment risk intelligence console for merchants. Scores Razorpay payloads with an XGBoost model, explains each decision with TreeSHAP, synthesizes evidence with Gemini and writes an immutable audit trail. The ML model stays the sole decision-maker. [Live demo](https://fraudlens-lyart.vercel.app/). | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-189AB4?style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| [**IntelliRepo**](https://github.com/praju120056/IntelliRepo) | Repository intelligence engine. Builds dependency and call graphs from Python ASTs, indexes code with embeddings, and answers structural questions (callers, dependencies, impact of a change) with graph-aware retrieval before any LLM is involved. | ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-262626?style=flat-square) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| [**Meridian**](https://github.com/praju120056/Meridian) | Agent that watches GitHub pull requests, decides which ones deserve attention and routes alerts through Caspian to Slack and Telegram. HMAC-verified webhooks, deterministic severity policy, Gemini 2.5 Flash for semantic assessment, and a rule that the LLM can never downgrade a deterministic HIGH. Tested against [meridian-demo](https://github.com/praju120056/meridian-demo). | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| [**Rookie**](https://github.com/praju120056/rookie) | iQOO Hackathon 2026 finale entry (Team OGs). AI personas test an app the way real users would, such as a 65-year-old new to smartphones or a user on a slow 2G network. The personas change what the model can actually perceive, and a Streamlit report shows where each one got stuck. Runs fully locally with Gemma 3 through Ollama. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
-| [**Notification Router**](https://github.com/praju120056/hackerrank_aug27) | HackerRank Orchestrate entry. Routes WhatsApp messages (text, images, voice notes) to notify, digest or mute using a deterministic-first pipeline: rule engine, tiered evidence retrieval, then batched Gemini decisions with checkpointing and a 50-test offline suite. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square) |
-| [**llm-powered-rag**](https://github.com/praju120056/llm-powered-rag) | RAG system with PDF and recursive website ingestion, pgvector similarity search, Groq-hosted Llama 3.3 for generation, and a separate admin dashboard for ingestion. | ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square) |
-
-### Embedded systems and applied ML
-
-| Project | Description | Stack |
-| :-- | :-- | :-- |
-| [**PRISM Smart Inhaler**](https://github.com/praju120056/PRISM-Smart-Inhaler) | Acoustic monitoring for pressurised metered-dose inhalers. Classifies 200 ms audio windows into drug, inhale, exhale and noise events, then assesses each inhalation against a one-sided 95% reference limit. Evaluated with grouped cross-validation across Random Forest, SVM, XGBoost and a 1D CNN exported to ONNX. Research stage, not a clinical classifier. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=flat-square&logo=onnx&logoColor=white) |
-| [**PRISM Hardware**](https://github.com/praju120056/prism-hardware) | Capture layer for PRISM. ESP32 firmware reads an INMP441 I2S MEMS microphone at 8 kHz and streams raw samples over serial. Host scripts verify CRC-32, bit alignment and sample rate, then produce WAV files. | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![ESP32](https://img.shields.io/badge/-ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white) |
-| [**NeoCocoon**](https://github.com/praju120056/neococoon) | Smart baby incubator prototype. A Raspberry Pi touchscreen UI talks over serial to a Pico that reads temperature, humidity and light sensors and drives heaters, humidifiers and phototherapy lamps. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white) |
-| [**Robotics**](https://github.com/praju120056/Robotics) | Obstacle-avoidance robot in a PyBullet simulation that steers using simple front, left and right sensing. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-
-### Full-stack and security
-
-| Project | Description | Stack |
-| :-- | :-- | :-- |
-| [**Skill Exchange 2.0**](https://github.com/praju120056/skill-exchange-2.0) | Student skill-sharing platform with aggregation-based skill matching, Socket.IO direct messaging, a Gemini-powered AI mentor, JWT auth in HttpOnly cookies and Google OAuth. Deployed on Azure with a GitHub Actions pipeline. [Live](https://skill-exchange-htcsaefxdfe8g2fv.southeastasia-01.azurewebsites.net). | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
-| [**Banking ZTA**](https://github.com/praju120056/banking_zta) | Zero Trust banking simulation: mTLS device verification at Nginx, Keycloak for identity and roles, Open Policy Agent for per-transaction risk scoring, and TOTP step-up for high-risk transfers. Forked from a teammate's repository. | ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| [**AQI Detector**](https://github.com/praju120056/AQI) | Air quality dashboard backed by the OpenWeatherMap API with MongoDB Atlas storage. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
-| [**Blog Web App**](https://github.com/praju120056/blog_web) | Server-rendered blog with full CRUD, EJS templates and a React like button. | ![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
-| [**Portfolio**](https://github.com/praju120056/portfolio) | Minimal single-page portfolio with a terminal-style component, built to prioritise content over decoration. [Live](https://prajakth-portfolio.vercel.app/). | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
-
-### Systems and coursework
-
-| Project | Description |
-| :-- | :-- |
-| [**UNIX-style-shell**](https://github.com/praju120056/UNIX-style-shell) | Shell in C using `fork` and `execvp`, with built-in `cd`, `exit` and `clear`. |
-| [**java-tetris**](https://github.com/praju120056/java-tetris) | JavaFX Tetris clone adapted from an open-source project. |
-| [**devops**](https://github.com/praju120056/devops) | Ten exercises from the seventh-semester DevOps course, each with its own README. |
-| [**soa_lab**](https://github.com/praju120056/soa_lab) | Service-oriented architecture lab exercises. |
-
----
-
-## Currently
-
-- Developing **Meridian**, **PRISM** and **IntelliRepo**
-- Preparing the **Facial Emotion Recognition Framework** for publication
-- Taking the **Banking ZTA** system toward deployment
-
-## Interests
-
-Backend engineering, distributed systems, AI and ML systems, operating systems, embedded systems.
-
----
 
 ### Languages
 
@@ -128,7 +84,6 @@ Backend engineering, distributed systems, AI and ML systems, operating systems, 
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
   <img src="https://img.shields.io/badge/XGBoost-189AB4?style=flat-square"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/LLMs-412991?style=flat-square"/>
 </p>
 
